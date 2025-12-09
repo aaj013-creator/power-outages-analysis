@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Power Outage Project – Introduction</title>
+</head>
+<body>
+
+    <h1>Power Outage Duration Analysis</h1>
+
+    <h2>Dataset Introduction</h2>
+    <p>
+        Our dataset contains detailed information on power outages across different U.S. states, 
+        with each row representing a single outage event. These events include when the outage began, 
+        how long it lasted, how many customers were affected, and what factors contributed to the disruption. 
+        Understanding this dataset is important because power outages are becoming increasingly common due to 
+        aging infrastructure, extreme weather, and rising energy demands. By examining outage patterns, 
+        we can better understand which factors contribute most to disruptions and potentially identify 
+        ways to reduce their impact on communities.
+    </p>
+
+    <p>
+        The central question guiding this project is: <strong>Which factors are most strongly associated 
+        with longer power outage durations?</strong> This question matters because outage duration directly 
+        affects public safety, economic loss, and community resilience. If we can understand what drives long outages, 
+        decision-makers can better prepare and respond to emergencies.
+    </p>
+
+    <p>
+        The dataset contains <strong>1534 rows</strong>. The relevant columns for this question are:
+    </p>
+
+    <ul>
+        <li><strong>OUTAGE.START</strong> — The start date and time of the outage event.</li>
+        <li><strong>OUTAGE.DURATION</strong> — The length of the outage in minutes.</li>
+        <li><strong>CUSTOMERS.AFFECTED</strong> — Estimated number of customers impacted.</li>
+        <li><strong>CAUSE.CATEGORY</strong> — High-level category describing the primary cause of the outage.</li>
+        <li><strong>CAUSE.SUBCATEGORY</strong> — More specific details about the cause.</li>
+        <li><strong>CLIMATE.REGION</strong> — The assigned climate region for the state in which the outage occurred.</li>
+    </ul>
+
+    <h2>Quantitative Overview</h2>
+    <p>
+        To begin understanding our dataset, we first look at basic summary statistics about outage 
+        duration and the key variables associated with it. Outage durations range widely, from very brief 
+        disruptions lasting only a few minutes to extended outages lasting several days. This variation suggests 
+        that different types of outages may have fundamentally different underlying causes.
+    </p>
+
+    <p>
+        The climate region column shows that outages occur across all major U.S. climate areas, which means 
+        environmental conditions may play a role in how long outages last. Additionally, some cause categories — 
+        such as severe weather or equipment failure — appear more frequently than others, suggesting that certain 
+        causes might be more associated with prolonged disruptions.
+    </p>
+
+    <p>
+        These initial observations help motivate deeper analysis into which factors are truly connected to 
+        longer outage durations.
+    </p>
+
+</body>
+</html>
+
