@@ -1,15 +1,11 @@
-# Power Outage Duration Analysis
+## Data Cleaning and Exploratory Data Analysis
 
-Welcome to my DSC 80 Final Project website!  
-Below is the project introduction, embedded as an HTML page.
-
-## Introduction
+Here is an interactive univariate EDA plot:
 
 <iframe
-  src="assets/introduction.html"
+  src="assets/eda_univariate.html"
   width="100%"
-  height="800"
+  height="600"
   frameborder="0"
 ></iframe>
-
 
